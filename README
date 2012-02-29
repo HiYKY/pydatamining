@@ -4,16 +4,16 @@
 + 完成简单推荐功能，使用马氏距离、Pearson相关系数
 + Please use movielens dataset: http://www.grouplens.org/node/73
 + use pickle to store inter data, this function needs to be improved.
++ 数据标准化 (value-mean_value)/normal_deviation = normal_value
 
 Todo List
 
 *****优先*****
++ 加入Slope One算法 --> weighted Slope One
 + Divide into Training part and Run Part
-+ 数据标准化 (value-mean_value)/normal_deviation = normal_value
 + Classification
 + User_based filtering
 + Item_based filtering
-+ 加入Slope One算法
 ＋ 聚类
 ＋ add xml configuration file and related .py
 ＋ 增加保存dict\list对象功能
