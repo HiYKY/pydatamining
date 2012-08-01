@@ -9,7 +9,7 @@
 Todo List
 
 *****优先*****
-+ 加入Slope One算法 --> weighted Slope One
++ 加入Slope One算法 --> weighted Slope One --> BI-Polar Slope One
 + Divide into Training part and Run Part
 + Classification
 + User_based filtering
@@ -24,6 +24,7 @@ Todo List
 ＋ 更新模块code
 
 *If I have time*：
++ add database to store inter-data
 ＋ add User Interface
 ＋ 增加对Hadoop的支持
 ＋ 引入评价机制
