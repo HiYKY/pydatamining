@@ -1,15 +1,10 @@
 #!/usr/bin python
 # encoding: utf-8
+import Recommendation
 
-from common import Martrix, distance
 from common.distance import get_manhattan_distance
-from Recommendation import Recommendation
-
-from math import sqrt, pow
-
 class UserBasedRecommendation(Recommendation):
 #    def __init__(self, neighbor=3, recommendation=3, training=False):
-
     def get_relative_neighbor(self, search_deep=1):
         pass
 #        TODO
@@ -121,13 +116,13 @@ if __name__ == '__main__':
 #    print rec.get_all_users()
 #    print rec.get_active_users()
 
-#    one_user = rec.get_all_users()[0]
-    one_user = '1'
+    one_user = rec.get_all_users()[0]
+#    one_user = '1'
 #    for one_user in rec.get_all_users()[1:1]:
 #    print user_dict['216']
 #    nearest_neighbor = rec.get_nearest_neighbor(user=one_user, training=flag)
     nearest_neighbor = rec.get_active_users()
-#    print rec.get_all_items(user='124')
+    print rec.get_all_items(user='124')
 #    pearson_value_list = rec.get_pearson_value_list(user=one_user, users=nearest_neighbor, training=flag)
 #        print pearson_value_list
 #        print rec.get_nearest_neighbor(user=one_user)

@@ -1,8 +1,6 @@
 #!/usr/bin python
 # encoding: utf-8
 
-from math import sqrt, pow
-
 def get_manhattan_distance(rating_left, rating_right):
     """
     tpye(rating) == dict
